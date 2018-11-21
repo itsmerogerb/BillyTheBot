@@ -28,7 +28,7 @@ namespace DiscordBotSharp
             .AddSingleton(_Commands)
             .BuildServiceProvider();
 
-            string botToken = "NTE0NDU3NDUwNTUyNzU0MTc4.DtW1nQ.x6dmt9MUCJIJe3Sf_rpxElbw8Dw";
+            string botToken =""
             // event subscibtion
             _client.Log += Log;
 
